@@ -1,5 +1,5 @@
 # Multi-threading
-This program is a simulation of a professors office hours to show experience in parallel programming.
+This program is a simulation of a professors office hours to show hands-on experience in parallel programming.
 
 # Description
 The professor is teaching 2 classes this semester, class A and
@@ -24,9 +24,16 @@ several restrictions.
    should not be forced to wait. Similarly, if an arriving student is compatible with the
    students currently in the office he should not be forced to wait, unless the professor is due
    for a break. 
+   
+# Format of Input File
+The program requires a input file to run. This input file should contain the Class of the student (A or B), the arrival time and the question time in the following format :
+
+                  Class   Arrival_Time  Question_Time
+
+The class value is represented by 0 and 1, where 0 is class A and 1 is class B. There should be details about only 1 student in 1 line. A sample file is uploaded.
   
 # How to run:
 To run the program type the following commands:
   make
-  ./office_hours
+  ./office_hours <name of input file>
 
