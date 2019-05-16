@@ -34,6 +34,7 @@ The class value is represented by 0 and 1, where 0 is class A and 1 is class B. 
   
 # How to run:
 To run the program type the following commands:
-  make
-  ./office_hours <name of input file>
+
+     make
+     ./office_hours <name of input file>
 
