@@ -33,7 +33,7 @@ The program requires a input file to run. This input file should contain the Cla
 The class value is represented by 0 and 1, where 0 is class A and 1 is class B. There should be details about only 1 student in 1 line. A sample file is uploaded.
   
 # How to run:
-To run the program type the following commands:
+To run the program, type the following commands:
 
      make
      ./office_hours <name of input file>
